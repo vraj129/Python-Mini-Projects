@@ -12,7 +12,7 @@ def search():
 search()
 """
 import json
-data = json.load(open("/home/VrajPatel/Desktop/Vraj Patel/Python/Data Dictionary/data.json"))
+data = json.load(open("data.json"))
 word = input("Enter The word you want search : ")
 
 def search(word):
